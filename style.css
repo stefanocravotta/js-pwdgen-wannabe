@@ -1,0 +1,38 @@
+
+
+body{
+    text-align: center;
+}
+
+nav{
+    background-color: #7056d0;
+    height: 60px;
+}
+
+section{
+    height: calc(100vh - 100px);
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://d3npc921eoaj06.cloudfront.net/wp-content/uploads/2019/06/01170652/password.jpg);
+}
+
+#password{
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    border: 1px solid black;
+}
+
+footer{
+    height: 40px;
+    background-color: #200f5f;
+    
+}
+
+footer a{
+    color: #f82fa4; 
+}
+
+footer a:hover{
+    color: white;
+}
