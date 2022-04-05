@@ -8,6 +8,7 @@
 4.  STAMPA NEL DOCUMENTO
  */
 
+
 const firstName = prompt("Inserisci il tuo nome");
 const lastName = prompt("Inserisci il tuo cognome");
 const colorePreferito = prompt("Inserisci il tuo colore preferito");
@@ -17,3 +18,4 @@ const passwordGenerator = firstName + lastName + colorePreferito +"22";
 console.log(passwordGenerator);
 
 document.getElementById("password").innerHTML = (passwordGenerator)
+
