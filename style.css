@@ -16,11 +16,35 @@ section{
     background-image: url(https://d3npc921eoaj06.cloudfront.net/wp-content/uploads/2019/06/01170652/password.jpg);
 }
 
+section .container{
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 50px;
+}
+
 #password{
     width: 250px;
     margin: 0 auto;
     padding: 10px 10px;
-    border: 1px solid black;
+    border: 1px solid #f82fa4;
+    border-radius: 50px;
+}
+.username{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #f82fa4;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.meme{
+    
+}
+
+.meme img{
+    width: 200px;
+    border-radius: 40px;
+    opacity: .8;
+    box-shadow: 2px 2px 2px 5px #f82fa4;
 }
 
 footer{

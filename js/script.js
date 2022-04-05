@@ -19,3 +19,14 @@ console.log(passwordGenerator);
 
 document.getElementById("password").innerHTML = (passwordGenerator)
 
+const linear = firstName + lastName;
+const invers = lastName + firstName;
+const random = "22" + firstName + colorePreferito + lastName;
+
+document.getElementById("userlinear").innerHTML = linear
+document.getElementById("userinvers").innerHTML = invers
+document.getElementById("userrandom").innerHTML = random
+
+
+
+
